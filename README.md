@@ -12,8 +12,8 @@ Mais um projeto que o foco é a criação de uma *landing page* para treinar ain
 ![HTML5](https://img.shields.io/badge/html5-%23E34F26.svg?style=for-the-badge&logo=html5&logoColor=white) ![CSS3](https://img.shields.io/badge/css3-%231572B6.svg?style=for-the-badge&logo=css3&logoColor=white)
 
 ## Acesso ao projeto
-- Link para a resolução.
-- Site no ar.
+- [Link para a resolução](https://www.frontendmentor.io/solutions/equalizer-responsive-landing-page-nOmTXAkHhr).
+- [Site no ar](https://caioikn.github.io/equalizer/).
 
 ## Abrir e rodar o projeto
 1. Clone este repositório em sua máquina local ou baixe os arquivos clicando [aqui](https://github.com/caioikn/equalizer/archive/main/equalizer.zip).
