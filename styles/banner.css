@@ -1,0 +1,55 @@
+.banner {
+    margin: 0 1.5rem 10.37rem 1.5rem;
+}
+
+.banner h1 {
+    color: #191826;
+    font-size: 2.5rem;
+    font-weight: 700;
+    letter-spacing: -0.03rem;
+    line-height: 3rem;
+    margin-bottom: 1.25rem;
+}
+
+.banner p {
+    color: #191826;
+    line-height: 1.625rem;
+}
+
+/* Responsividade */
+@media screen and (min-width: 768px) {
+    .banner {
+        margin: 2.5rem 12.5rem 15.5rem 2.5rem;
+    }
+
+    .banner h1 {
+        font-size: 4rem;
+        letter-spacing: -0.05rem;
+        line-height: 4rem;
+        margin-bottom: 1.75rem;
+    }
+
+    .banner p {
+        font-size: 1.125rem;
+        line-height: 1.75rem;
+    }
+}
+
+@media screen and (min-width: 1440px) {
+    .banner {
+        margin: 0 16.25rem 20rem 10.5rem;
+    }
+
+    .banner h1 {
+        font-size: 5.5rem;
+        letter-spacing: -0.06rem;
+        line-height: 5.5rem;
+        margin-bottom: 2.5rem;
+    }
+
+    .banner p {
+        font-size: 1.25rem;
+        line-height: 2.125rem;
+        padding-right: 10rem;
+    }
+}

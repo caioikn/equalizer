@@ -1,0 +1,58 @@
+@import url('./header.css');
+@import url('./banner.css');
+@import url('./info.css');
+@import url('./footer.css');
+
+* {
+    box-sizing: border-box;
+    font-family: 'IBM Plex Sans', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: #FCFAF9;
+    background-image: url('../assets/bg-main-mobile.png');
+    background-repeat: no-repeat;
+    background-position: top -20% left;
+    width: 100%;
+}
+
+main {
+    margin-bottom: 4rem;
+}
+
+/* Responsividade */
+@media screen and (min-width: 768px) {
+    body {
+        background-image: url('../assets/bg-main-tablet.png');
+        background-position: top -30% left 80%;
+        position: relative;
+    }
+
+    body::before {
+        background-image: url('../assets/bg-pattern-1.svg');
+        background-position: top -2rem right -2.5rem;
+        background-repeat: no-repeat;
+        content: '';
+        height: 100%;
+        position: absolute;
+        width: 100%;
+        z-index: -1;
+    }
+
+    main {
+        margin-bottom: 11.5rem;
+    }
+}
+
+@media screen and (min-width: 1440px) {
+    body {
+        background-image: url('../assets/bg-main-desktop.png');
+        background-position: top 150% left 55%;
+    }
+
+    body::before {
+        background-position: top -2.5rem right;
+    }
+}

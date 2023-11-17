@@ -1,0 +1,151 @@
+.info {
+    align-items: center;
+    background-color: #191826;
+    background-image: url('../assets/bg-pattern-2.svg');
+    background-repeat: no-repeat;
+    background-position: center top;
+    border-radius: 12px;
+    display: flex;
+    flex-direction: column;
+}
+
+.info-celular {
+    margin-top: -6rem;
+    width: 64%;
+}
+
+.card {
+    background-color: #FA7453;
+    border-radius: 12px;
+    padding: 3rem 2.25rem;
+    margin-top: 3rem;
+}
+
+.card h2 {
+    color: #FCFAF9;
+    font-size: 2rem;
+    font-weight: 700;
+    line-height: 2.5rem;
+    margin-bottom: 0.75rem;
+}
+
+.card p {
+    color: #FCFAF9;
+    font-size: 1.125rem;
+    line-height: 1.75rem;
+    letter-spacing: -0.03rem;
+    margin-bottom: 2.25rem;
+}
+
+.card__valor {
+    align-items: center;
+    display: flex;
+    gap: 1rem;
+    margin-bottom: 2rem;
+}
+
+.card__valor__preco {
+    color: #FCFAF9;
+    font-size: 4.0625rem;
+    font-weight: 700;
+    line-height: 3.25rem;
+}
+
+.card__valor__mes {
+    color: #FCFAF9;
+    font-size: 1.25rem;
+    letter-spacing: -0.0125rem;
+    line-height: 2rem;
+}
+
+.botao-ios,
+.botao-android {
+    align-items: center;
+    border-radius: 0.75rem;
+    display: flex;
+    font-size: 1.125rem;
+    font-weight: 700;
+    gap: 0.5rem;
+    justify-content: center;
+    letter-spacing: -0.01125rem;
+    line-height: 2rem;
+    margin-bottom: 1rem;
+    padding: 1rem 0;
+    text-align: center;
+    text-decoration: none;
+}
+
+.botao-ios {
+    background-color: #191826;
+    color: #FCFAF9;
+    transition: background-color 0.3s;
+}
+
+.botao-ios:hover {
+    background-color: #66E2DC;
+}
+
+.botao-android {
+    background-color: #FCFAF9;
+    color: #191826;
+    transition: background-color 0.3s;
+}
+
+.botao-android:hover {
+    background-color: #FFB964;
+}
+
+/* Responsividade */
+@media screen and (min-width: 768px) {
+    .info {
+        height: 40rem;
+        margin: 0 2.5rem 11.5rem 2rem;
+    }
+
+    .info-celular {
+        align-self: flex-start;
+        margin-left: 4rem;
+        width: 17rem;
+    }
+
+    .card {
+        align-self: flex-end;
+        margin-right: 2.5rem;
+        margin-top: -40%;
+        padding: 3rem;
+        width: 25rem;
+    }
+}
+
+@media screen and (min-width: 1440px) {
+    .info {
+        background-position: top -15% left 43.5%;
+        margin: 0 10.5rem 13rem 10.5rem;
+    }
+
+    .info-celular {
+        height: 40rem;
+        margin: -12rem 0 0 6rem;
+        width: 20rem;
+    }
+
+    .card {
+        justify-self: flex-start;
+        margin-right: 4.5rem;
+        margin-top: -31%;
+        padding: 3.5rem 3.5rem 3rem 3.5rem;
+        width: 28rem;
+    }
+
+    .card h2 {
+        font-size: 2.5rem;
+        line-height: 3.25rem;
+        margin-bottom: 1.5rem;
+    }
+
+    .card p {
+        font-size: 1.25rem;
+        line-height: 2.125rem;
+        margin-bottom: 2.5rem;
+    }
+}

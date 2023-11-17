@@ -1,0 +1,61 @@
+footer {
+    margin: 0 1.5rem 5rem 1.5rem;
+}
+
+footer>img {
+    margin-bottom: 2rem;
+}
+
+footer p {
+    color: #191826;
+    line-height: 1.625rem;
+    margin-bottom: 4rem;
+}
+
+.sociais {
+    display: flex;
+    gap: 1rem;
+}
+
+.sociais a svg path {
+    transition: fill 0.3s;
+}
+
+.sociais a svg:hover path {
+    fill: #FA7453;
+}
+
+/* Responsividade */
+@media screen and (min-width: 768px) {
+    footer {
+        margin: 0 2.5rem 5.5rem 2rem;
+    }
+
+    footer>div {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    footer p {
+        margin-bottom: 0;
+        width: 23rem;
+    }
+}
+
+@media screen and (min-width: 1440px) {
+    footer {
+        align-items: center;
+        display: flex;
+        justify-content: space-between;
+        margin: 0 10.5rem 5.5rem 10.5rem;
+    }
+
+    footer>img {
+        margin-bottom: 0;
+    }
+
+    footer div p {
+        margin-right: 22.5rem;
+    }
+}
